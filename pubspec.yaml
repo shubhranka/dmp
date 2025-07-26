@@ -1,0 +1,45 @@
+name: dmp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0 # Check pub.dev for the latest version
+  firebase_core: ^2.30.0  # Check for the latest version on pub.dev
+  firebase_auth: ^4.19.0 # Check for the latest version on pub.dev
+  google_sign_in: ^6.2.1 # Check for the latest version on pub.dev
+  
+  # You'll likely need an HTTP client later to talk to your Go backend
+  http: ^1.2.1
+  web_socket_channel: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/google_logo.png
+    - assets/avatars/boy-1.png
+    - assets/avatars/boy-2.png
+    - assets/avatars/boy-3.png
+    - assets/avatars/girl-1.png
+    - assets/avatars/girl-2.png
+    - assets/avatars/girl-3.png
+    - assets/avatars/girl-4.png
+    - assets/avatars/girl-5.png
+    - assets/avatars/girl-6.png
+  fonts:
+    - family: SFProDisplay
+      fonts:
+        # - asset: assets/fonts/SFProDisplay-Regular.ttf
+        - asset: assets/fonts/SFPRODISPLAYREGULAR.OTF
+        - asset: assets/fonts/SFPRODISPLAYMEDIUM.OTF
+          weight: 700
